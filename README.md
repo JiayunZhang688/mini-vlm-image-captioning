@@ -64,14 +64,7 @@ image captioning 领域有个经典技术叫 **Self-Critical Sequence Training (
 在 `train.py` 的 teacher-forcing 训练收敛后，加一个 SCST fine-tune 阶段（几十行代码），
 是同时覆盖"VLM + RL"两块要求、性价比很高的一步——如果你决定投入更多时间，这是推荐的下一步。
 
-## 简历怎么写（建议措辞）
 
-> 独立实现轻量级视觉-语言模型（Mini-VLM）：基于 ViT 图像编码器与 Transformer
-> 解码器手写 Self-Attention / Cross-Attention 机制，实现图像到文本的自回归生成；
-> 在 [Flickr8k/合成数据集] 上训练并使用 BLEU/CIDEr 评估，可视化 cross-attention
-> 热力图验证视觉-语言对齐效果
-
-面试时能讲清楚的点：
 - 为什么 attention 要除以 `sqrt(d_head)`（防止 softmax 饱和、梯度消失）
 - self-attention 和 cross-attention 的 Q/K/V 分别来自哪里
 - causal mask 为什么用加性 `-inf` 而不是乘性 0/1
