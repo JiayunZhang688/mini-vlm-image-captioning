@@ -1,11 +1,5 @@
 # Mini-VLM：从零实现的小型视觉-语言模型（图像描述生成）
 
-一个不依赖 `transformers`/`CLIP` 封装库、手写 Multi-Head Attention 的迷你 VLM，
-用于验证并展示你对 **Self-Attention / Cross-Attention / ViT / Transformer Decoder**
-的实现能力，对应"端到端大模型算法实习生"JD 里的：
-
-> 熟悉 Transformer、ViT、LLM 等主流模型架构；具备 VLM 方向的研究或工程经验，
-> 理解视觉-语言对齐、多模态建模等核心技术
 
 ## 项目结构
 
