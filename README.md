@@ -10,7 +10,7 @@ mini-vlm/
 ├── train.py                   # 训练脚本
 ├── visualize_attention.py     # 生成描述 + 可视化 cross-attention 热力图
 ├── checkpoints/                # 训练好的权重
-└── samples/                    # 可视化输出（面试展示用）
+└── samples/                    # 可视化输出
 ```
 
 ## 已验证：跑得通、能收敛
